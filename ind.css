@@ -1,0 +1,59 @@
+/*univ css*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    background-color: bisque;
+    padding: 20px;
+    text-align: center;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: gold;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: aliceblue;
+    color: green;
+}
+
+.kolom1{
+    float: left;
+    padding: 10px;
+}
+.kolom1.side{
+    width: 45%;
+}
+.kolom1.middle{
+    width: 45%;
+}
+.kolom1.right{
+    width: 10%;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer{
+    background-color: plum;
+    padding: 10px;
+    text-align: center;
+}
